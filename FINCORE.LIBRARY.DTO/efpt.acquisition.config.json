@@ -1,0 +1,1157 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "AcquisitionContext",
+   "ContextNamespace": "EntityFramework.Acquisition.AcquisitionContext",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "EntityFramework.Acquisition.AcquisitionModel",
+   "OutputContextPath": "EntityFramework\/Acquisition\/AcquisitionContext",
+   "OutputPath": "EntityFramework\/Acquisition\/AcquisitionModel",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "FINCORE.LIBRARY.DTO",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Amortization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARCard]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CFVerifikasiKonsumen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CFVerifikasiKonsumen_AplikasiIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[log_error]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[neo_score_log]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[storage_location]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_approval_history]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_auto_number]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_blacklist_daily]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_BPKB]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_BPKB_loan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_account_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_account_mutation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_approval_progress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_documents]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_financial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_print_history]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CA_SLIK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_AC_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_AC_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_APUPPT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_corporate_document]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_financial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_installment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_payment_point]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tr_CAS_photo_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_references]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CAS_repeat_order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM_Insurance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM_life_insurance_credit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM_price_awal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM_subsidi_DP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_CM_UMC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_dealer_order_source_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_dealer_order_source_TAC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_dealer_order_source_third_party]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_generate_code]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_generate_code_history]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_hierarchy_transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_items]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_NPP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_NPP_print]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_PO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_PO_send_to_email]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_pooling_orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_send_PO_log]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_verification_customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_verification_customer_application_in]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[vw_agreement_old]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[sp_approve_cm_car]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_approve_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_approve_npp]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_approve_vertel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_check_APUPPT]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_check_blacklist]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_check_data_referensi_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_delete_bpkb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_delete_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_delete_credit_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_generate_estimated_insurance_cost_R2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_generate_estimated_insurance_cost_R4]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_generate_insurance_cost_R4_OJK]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_account_owner]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_admin_provisi_interest_fee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_agreement_number_old]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_analisa_cmo_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_approval_reason]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_approval_scheme_list]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_approval_scheme]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_approval_user]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_approver_reason]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_auto_number]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKB_3P_Dtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKB_BAST_IN_Dtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKB_ThirdParty_Dtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKBBASTDtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKBPinjamDtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_BPKBSKDtl]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_branch_exception]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ca_car_detail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_cas_list]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_cas_po_list]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_check_user_print_po]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_cm_year]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_cmo_dealer_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_credit_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_credit_type_list_testlookup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_credit_type_list]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_credit_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_customer_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_customer_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_npp]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_order_source_TAC]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_order_source_TP]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_process_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_storage_location]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_data_VerifikasiKonsumen]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_dealer_by_code]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_DocumentField]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_employee_surcode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_evaluation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fcl_result_detail_konsumen_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fcl_result_detail_kredit_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fcl_result_header_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fcl_result_history_kol_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fcl_result_summary_slik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fclid]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_file_verification_customer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_financing_package]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_foto_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_fotocek_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_general_parameter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_gf_bank]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_hierarchy_transaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_history_approval]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_identity_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_industry_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_installment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_insurance_random_R2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_insurance_random_R4]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_InsuranceFee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_life_insurance_kredit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_list_cmo_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_list_dealer_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_location_bpkb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_marital_status]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_MarketPrice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_monthly_other_installment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_account_receiveable]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_application_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_asset_kind_class]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_asset_kind]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_insurance_cover_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_insurance_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_interest_rate_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_item_brand_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_item_brand]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_photo_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_product_finance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_product_marketing]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_product]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_provenance_pooling_order]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_STNK_name]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ms_usage_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_msreferencetype_refname]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_next_approval_scheme]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ngulik]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_nik_konsumen]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_npp_edit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_npp_view]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ownership_proof]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_acquisition_mobil]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_acquisition_motor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_approval_inbox]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKB_exp]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKB_Lookup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKB]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKBAsuransi]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKBBiroJasa]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKBDealer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_CA_Lookup_History]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_cas_new]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_agreement_old]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_bankname]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_CGSNo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_dealer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_item]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_location]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_marketinghead]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_msbank]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_OldNPP]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_perantara]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_surveyor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_NPP]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_OMA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_paging_approvalscheme]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pooling_order]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_price_awal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_process_fee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_process_provisi_ins]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_profession]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_relationship]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_repeat_order_category]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_repeat_order_decision]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_repeat_order_reference_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_residence_status]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_risk_category]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_search_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_storage_location]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_tipe_perantara]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_tr_cm_car]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_tr_cm_photo_detail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_tr_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_trcas_acheader_number]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_analisa_cmo_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_bpkb_multiple_db]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cas_po]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cas_with_table_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cm_car]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cm_photo_detail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_cmo_analisa_ca_car]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_credit_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_foto_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_generate_code_history]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_log_neo_score]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_test_multiple_db]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_tr_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_VerifikasiKonsumen]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Name_Value]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_pagination_get_nik_konsumen]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_pagination_lookup_orderid]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_CA_approval_progress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_CA_C]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_CA_mutasi_rekening]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_CA_P]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_CA_SLIK]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_approval_letter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_consument_statement_letter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_important_notice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_log_insert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_memorandum_of_understanding]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_name_change_receipt]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_name_change_statement_letter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_power_of_attorney_fidusia]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_power_of_attorney]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_second_statement_letter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_npp_statement_letter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_po_acquisition_mobil]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_po_acquisition_motor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_po_acquisition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_vertel_dokumen_in]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_print_vertel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_reset_insurance_proportion_R2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_reset_insurance_proportion_R4]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_rfa_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_RFNDO_Check_ByNpp]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_RFNDO_Check_Result_Get]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_RFNDO_GetAssetDetail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_send_email_print_PO]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_template_name]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_trans_open_cm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_analisa_cmo_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_bpkb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_cas]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_credit_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_foto_ca]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_log_neo_score]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_status_approval_vertel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spGetListNewVertelLookUpPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spGetListNewVerteltest]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spGetListNewVerteltestPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spSubledgerBooking]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spSubledgerContractInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[spSubledgerSupplierInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[fc_get_sequence_number]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_get_agreement_value]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_get_total_periode_tenor]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_get_trans_type_id]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetEffectiveRate]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPGenVerifikasiNo]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPGetBranchEmployeeeKonsIncPos]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPGetFlatRateMenurun]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPGetFlatRateTetap]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPGetInsentifMokasDealerAmtV3]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPKonversiUppingOTR]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnEPSubledgerBalanceCheck]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnGenerateAmortization]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnGetClassType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnGetInstallment]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fnNumericRound]",
+         "ObjectType": 2
+      }
+   ],
+   "UiHint": "MACF-DBMCF.FC_ACQ_MCF",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

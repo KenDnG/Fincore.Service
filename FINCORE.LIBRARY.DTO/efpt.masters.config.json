@@ -1,0 +1,757 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "MastersContext",
+   "ContextNamespace": "EntityFramework.Masters.MastersContext",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "EntityFramwork.Masters.MastersModels",
+   "OutputContextPath": "EntityFramework\/Masters\/MastersContext",
+   "OutputPath": "EntityFramework\/Masters\/MastersModels",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "FINCORE.LIBRARY.DTO",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[log_error]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_AC_verification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_account_owner]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_account_receiveable]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_document]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_document_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_dummy_hns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_identity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_position_reference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_agent_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_application_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_approval_level]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_approval_mapping_BM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_approval_reference_unit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_approval_scheme]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_approval_user]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_APUPPT_list]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_APUPPT_profession]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_APUPPT_question]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_APUPPT_red_zone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_brand]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_kind]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_kind_class]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_mapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_series]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_asset_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_bank]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_bank_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_biaya_proses_desc]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_biaya_proses_hdr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_BPKB_location]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_BPKB_reason]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_BPKB_receiver]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_branch_credit_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_branch_mapping_OJK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_brand_item_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_CAS_approval_reason]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_CAS_RO_program_amount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_CM_cut_max_disbursement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_CM_mapping_plafond_disbursement]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_company]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_company_branch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_credit_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_customer_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_customer_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer_bank_reference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer_branch_access]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer_job_title]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer_personel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_dealer_tax]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_disbursal_type_UMC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_district]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_employee_sync]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_evaluation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_exclude_insurance_by_branch_R4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_general_parameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_general_parameter_backup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_get_field_doc_application_in]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_hierarchy_transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_house_condition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_identity_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_incentive_agent_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_incentive_agent_type_detail_branch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_incentive_agent_type_detail_npp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_incentive_agent_type_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_incentive_by]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_income_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_industry_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_installment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_by_credit_R4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_by_dealer_R2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_by_dealer_R4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_cost_rate_R2_OJK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_cost_rate_R4_OJK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_cost_rate_R4_OJK_KPM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_cover_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_policy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_proportion_R2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_proportion_R2_syariah]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_proportion_R4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_proportion_R4_syariah]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_proportion_R4_used_car]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_insurance_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_interest_rate_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_location]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_mail_to_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_map_dealer_code]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_marital]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_module]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_module_menu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_monthly_other_installment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_name_validation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_nationality]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_NPWP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_ownership_proof]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_package_detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_package_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_package_header_GIIAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_payment_point]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_payment_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_photo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_photo_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_position]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_position_menu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_position_menu_special]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_position_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_product]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_product_finance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_product_marketing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_profession]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_promotion_line_text]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_provenance_pooling_order]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_province]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_PT_insurance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_reference_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_regency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_regional]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_regional_area]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_relationship]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_repeat_order_applicant_relation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_repeat_order_category]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_repeat_order_decision]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_repeat_order_reason]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_repeat_order_reference_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_reposession_market_price]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_residence_status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_risk]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_risk_category]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_risk_parameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_service_bureau_branch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_service_bureau_header]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_source]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_status_credit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_STNK_name]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_STNK_status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_subsidy_DP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_supplier_mapping_OJK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_trans_super_user]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_trans_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_type_of_service_bureau_necessity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_upping_OTR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_usage_type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_user_position]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_vehicle_cc]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_vehicle_color]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_verification_customer_status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_village]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ms_year_frame]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_agent_document]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[sp_get_agent_ms_detail_by_id]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_agent_ms_doc]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_company_branch_list]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_credit_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_customer_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_customer_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_employee_surcode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_evaluation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_hirarki_menu_by_user]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_industry_type]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_location_byid]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_location]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_marital_status]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_monthly_other_installment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_msreferencetype_refname]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_ownership_proof]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKBReceiver]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_BPKBTypeOfBureauNecessity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_agent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_bank]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_lookup_incentive_code]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_master_agent_ms]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_npp_dealer_bank_account]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_profession]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_relationship]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_residence_status]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_source]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_insert_agent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_agent]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "MACF-DBMCF.FC_MSTAPP_MCF",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

@@ -1,0 +1,43 @@
+﻿{
+  "CodeGenerationMode": 2,
+  "ContextClassName": "TerminationContext",
+  "ContextNamespace": "EntityFramework.Termination.TerminationContext",
+  "DefaultDacpacSchema": null,
+  "FilterSchemas": false,
+  "IncludeConnectionString": false,
+  "ModelNamespace": "EntityFramework.Termination.TerminationModel",
+  "OutputContextPath": "EntityFramework\/Termination\/TerminationContext",
+  "OutputPath": "EntityFramework\/Termination\/TerminationModel",
+  "ProjectRootNamespace": "FINCORE.LIBRARY.DTO",
+  "Schemas": null,
+  "SelectedHandlebarsLanguage": 0,
+  "SelectedToBeGenerated": 0,
+  "Tables": [
+    {
+      "Name": "[dbo].[NEWPO]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[NEWPO1]",
+      "ObjectType": 0
+    }
+  ],
+  "UiHint": "MACF-DBUAT.Termination",
+  "UseBoolPropertiesWithoutDefaultSql": false,
+  "UseDatabaseNames": false,
+  "UseDbContextSplitting": false,
+  "UseFluentApiOnly": true,
+  "UseHandleBars": false,
+  "UseHierarchyId": false,
+  "UseInflector": true,
+  "UseLegacyPluralizer": false,
+  "UseManyToManyEntity": false,
+  "UseNoConstructor": false,
+  "UseNoDefaultConstructor": false,
+  "UseNoNavigations": false,
+  "UseNoObjectFilter": false,
+  "UseNodaTime": false,
+  "UseNullableReferences": false,
+  "UseSchemaFolders": false,
+  "UseSpatial": false
+}

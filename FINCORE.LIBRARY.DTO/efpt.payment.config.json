@@ -1,0 +1,65 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "PAYMENTContext",
+   "ContextNamespace": "EntityFramework.Payment.PaymentContext",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "EntityFramework.Payment.PaymentModel",
+   "OutputContextPath": "EntityFramework\/Payment\/PaymentContext",
+   "OutputPath": "EntityFramework\/Payment\/PaymentModel",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "FINCORE.LIBRARY.DTO",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[log_error]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_cash_expenses]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tr_cashier_session]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_cashier_session_expenses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_cashier_session_verify]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_get_pagination_cashier_session]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_update_cashier_session_verify]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "MACF-DBUAT.FC_PAYMENT",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
